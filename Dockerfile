@@ -1,4 +1,4 @@
-FROM enteee/tls-tofu:alpine-latest
+FROM ncmd/tls-tofu:alpine-latest
 
 # Disable TLS-TOFU by default
 ENV TLS_TOFU=false
